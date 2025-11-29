@@ -1,5 +1,5 @@
  <!DOCTYPE html>
- <html lang="en">
+ <html lang="en fr">
 
  <head>
     <meta charset="UTF-8">
@@ -249,14 +249,14 @@
         <section class="contact" id="contact">
          <h2 class="heading">Contact <span>Me! </span><span class="animete scroll" style="--i:1;"></span></h2>
 
-         <form action="#">
+         <form action="contact.php" method="POST"> 
             <div class="input-box">
                <div class="input-field">
-                  <input type="text" placeholder="Full name" required>
+                  <input type="text"  name="Full Name" placeholder="Full Name" required>
                   <span class="focus"></span>
                </div>
                <div class="input-field">
-                  <input type="text" placeholder="Email Address" required>
+                  <input type="text" name="Email Adresse" placeholder="Email Adresse" required>
                   <span class="focus"></span>
                </div>
 
@@ -265,11 +265,11 @@
 
             <div class="input-box">
                <div class="input-field">
-                  <input type="number" placeholder="Mobile number" required>
+                  <input type="number" name="Mobile numbers" placeholder="Mobile numbers" required>
                   <span class="focus"></span>
                </div>
                <div class="input-field">
-                  <input type="text" placeholder="Email subject" required>
+                  <input type="text" name="Email subject" placeholder="Email subject" required>
                   <span class="focus"></span>
                </div>
 
@@ -277,14 +277,15 @@
             </div>
 
             <div class="textarea-field">
-               <textarea name="" id="" cols="30" rows="10" placeholder="Your Message required"></textarea>
+               <textarea name="You Message" id="" cols="30" rows="10" placeholder="You Message required"></textarea>
                <span class="focus"></span>
 
                <span class="animete scroll" style="--i:7;"></span>
             </div>
 
             <div class="btn-box btns">
-               <button type="submit" class="btn">Envoyer</button>
+               <a href="https://accounts.google.com/SignOutOptions?hl=fr&continue=https://mail.google.com/mail&service=mail&ec=GBRAFw" class="btn">Envoyer un e-mail</a>
+
                <span class="animete scroll" style="--i:9;"></span>
             </div>
          </form>
